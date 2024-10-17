@@ -3,10 +3,14 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Teaching Assistant Experience.
-nav: false
+nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+I have worked as a teaching assistant for the following classes at the University of Utah:
+CS 2100 - Discrete Structures
+MATH 4100 / COMP 5360 - Introduction to Data Science
 
-Organize your courses by years, topics, or universities, however you like!
+Besides, I have worked as a course producer (a TA role for master/bachelor students) for the following classes at the University of Southern California:
+CSCI 570 - Analysis of Algorithms
+CSCI 587 - Geospatial Information Management

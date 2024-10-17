@@ -33,21 +33,21 @@
   "education": [
     {
       "institution": "Kahlert School of Computing, University of Utah",
-      "location": "Salt Lake City, United States",
+      "location": "Salt Lake City, US",
       "url": "https://www.cs.utah.edu",
       "area": "Computing (Data Management and Analysis)",
       "studyType": "Ph.D.",
-      "startDate": "2020-08-01",
-      "endDate": "2025-06-01"
+      "startDate": "2020-08",
+      "endDate": "PRESENT"
     },
     {
       "institution": "University of Southern California",
-      "location": "Los Angeles, United States",
+      "location": "Los Angeles, US",
       "url": "https://www.usc.edu",
       "area": "Computer Science",
       "studyType": "M.S.",
-      "startDate": "2018-01-08",
-      "endDate": "2019-12-18"
+      "startDate": "2018-01",
+      "endDate": "2019-12"
     },
     {
       "institution": "Zhejiang University",
@@ -55,8 +55,8 @@
       "url": "https://www.zju.edu.cn",
       "area": "Computer Science",
       "studyType": "B.Eng.",
-      "startDate": "2013-09-01",
-      "endDate": "2017-06-30"
+      "startDate": "2013-09",
+      "endDate": "2017-06"
     }
   ],
   "awards": [
