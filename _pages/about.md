@@ -13,7 +13,7 @@ profile:
     <p>72 S Central Campus Dr. </p>
     <p>Salt Lake City, UT 84112</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
@@ -21,3 +21,5 @@ social: true # includes social icons at the bottom of the page
 I am Mingzhe Li, a fifth-year Ph.D. student in Computing at the Scientific Computing and Imaging Institute (SCI), University of Utah. My Ph.D. advisor is Dr. Bei Wang Phillips. My current research interests include topological data analysis, scientific visualization, and machine learning. 
 
 Before my Ph.D. program, I received my M.S. degree from the University of Southern California and B.Eng degree from Zhejiang University, both in Computer Science.
+
+I am actively looking for postdoc positions in academic institutes and national labs. Feel free to reach out to me via email!
