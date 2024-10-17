@@ -24,8 +24,8 @@
       "url": "https://sci.utah.edu",
       "startDate": "2020-08-01",
       "endDate": "2025-06-01",
-      "summary": "Working as a Ph.D. student advised by Prof. Bei Wang Phillips. My research interests lie on topological data analysis and scientific visualization.",
-      "highlights": ["Topological Data Analysis"]
+      "summary": "Working as a Ph.D. student advised by Prof. Bei Wang Phillips. My research interests lie on topological data analysis and scientific visualization, and their applications to domain science.",
+      "highlights": ["Topological Data Analysis", "Scientific Visualization"]
     }
   ],
   "volunteer": [
@@ -33,16 +33,16 @@
   "education": [
     {
       "institution": "Kahlert School of Computing, University of Utah",
-      "location": "Salt Lake City, Utah, United States",
+      "location": "Salt Lake City, United States",
       "url": "https://www.cs.utah.edu",
       "area": "Computing (Data Management and Analysis)",
       "studyType": "Ph.D.",
       "startDate": "2020-08-01",
-      "endDate": "2025-06-01 (expected graduation)"
+      "endDate": "2025-06-01"
     },
     {
       "institution": "University of Southern California",
-      "location": "Los Angeles, California, United States",
+      "location": "Los Angeles, United States",
       "url": "https://www.usc.edu",
       "area": "Computer Science",
       "studyType": "M.S.",
@@ -51,7 +51,7 @@
     },
     {
       "institution": "Zhejiang University",
-      "location": "Hangzhou, Zhejiang, China",
+      "location": "Hangzhou, China",
       "url": "https://www.zju.edu.cn",
       "area": "Computer Science",
       "studyType": "B.Eng.",
