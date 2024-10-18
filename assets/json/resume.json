@@ -26,6 +26,33 @@
       "endDate": "PRESENT",
       "summary": "Working as a Ph.D. student advised by Prof. Bei Wang Phillips. My research interests include on topological data analysis, scientific visualization, machine learning, high-performance computing, and their applications to domain science.",
       "highlights": ["Topological Data Analysis", "Scientific Visualization", "Machine Learning", "High-performance Computing"]
+    },
+    {
+      "name": "Lawrence Berkeley National Laboratory",
+      "position": "Graduate Student",
+      "url": "https://www.lbl.gov",
+      "startDate": "2024-05-13",
+      "endDate": "2024-08-16",
+      "summary": "Improved the performance of distributed contour tree simplification framework; applied contour extraction using distributed contour trees to exa-scale scientific data analysis.",
+      "highlights": ["High-performance Computing", "Distributed Computing", "Topological Data Analysis", "Scientific Visualization", "VTK-m"]
+    },
+    {
+      "name": "Lawrence Berkeley National Laboratory",
+      "position": "Graduate Student",
+      "url": "https://www.lbl.gov",
+      "startDate": "2023-05-15",
+      "endDate": "2023-08-18",
+      "summary": "Collaborated on designing and developing distributed algorithms to simplify contour trees for scientific visualization tasks.",
+      "highlights": ["High-performance Computing", "Distributed Computing", "Topological Data Analysis", "Scientific Visualization", "VTK-m"]
+    },
+    {
+      "name": "Los Alamos National Laboratory",
+      "position": "Graduate Student",
+      "url": "https://www.lanl.gov",
+      "startDate": "2022-05-16",
+      "endDate": "2022-08-19",
+      "summary": "Verified and tested augmented contour tree generation code in VTK-m, collaborating on API consistency improvements.",
+      "highlights": ["Topological Data Analysis", "API", "VTK-m"]
     }
   ],
   "volunteer": [
