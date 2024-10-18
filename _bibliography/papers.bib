@@ -1,19 +1,20 @@
 ---
 ---
 
-@misc{Li2023gwmt,
-      title={Flexible and Probabilistic Topology Tracking with Partial Optimal Transport}, 
-      author={Mingzhe Li and Xinyuan Yan and Lin Yan and Tom Needham and Bei Wang},
-      year={2023},
-      journal={Under review with IEEE Transactions of Visualization and Computer Graphics (TVCG)},
-      eprint={2302.02895},
-      archivePrefix={arXiv},
-      primaryClass={cs.CG},
+@ARTICLE{li2024distributedBD,
+      author={Li, Mingzhe and Carr, Hamish and Rübel, Oliver and Wang, Bei and Weber, Gunther H.},
+      journal={IEEE Transactions on Visualization and Computer Graphics}, 
+      title={Distributed Augmentation, Hypersweeps, and Branch Decomposition of Contour Trees for Scientific Exploration}, 
+      year={2024},
+      volume={},
+      number={},
+      pages={1-11},
+      keywords={Vegetation;Data visualization;Topology;Three-dimensional displays;Data analysis;Switched mode power supplies;Level set;Contour trees;branch decomposition;parallel algorithms;computational topology;topological data analysis},
       selected={true},
-      url={https://arxiv.org/abs/2302.02895}, 
-      abstract={In this paper, we present a flexible and probabilistic framework for tracking topological features in time-varying scalar fields using merge trees and partial optimal transport. Merge trees are topological descriptors that record the evolution of connected components in the sublevel sets of scalar fields. We present a new technique for modeling and comparing merge trees using tools from partial optimal transport. In particular, we model a merge tree as a measure network, that is, a network equipped with a probability distribution, and define a notion of distance on the space of merge trees inspired by partial optimal transport. Such a distance offers a new and flexible perspective for encoding intrinsic and extrinsic information in the comparative measures of merge trees. More importantly, it gives rise to a partial matching between topological features in time-varying data, thus enabling flexible topology tracking for scientific simulations. Furthermore, such partial matching may be interpreted as probabilistic coupling between features at adjacent time steps, which gives rise to probabilistic tracking graphs. We derive a stability result for our distance and provide numerous experiments indicating the efficacy of our framework in extracting meaningful feature tracks.},
-      preview={GWMT_2023_teaser.png},
-      pdf={TVCG_GWMT_2023_full_paper.pdf}
+      doi={10.1109/TVCG.2024.3456322},
+      abstract={Contour trees describe the topology of level sets in scalar fields and are widely used in topological data analysis and visualization. A main challenge of utilizing contour trees for large-scale scientific data is their computation at scale using highperformance computing. To address this challenge, recent work has introduced distributed hierarchical contour trees for distributed computation and storage of contour trees. However, effective use of these distributed structures in analysis and visualization requires subsequent computation of geometric properties and branch decomposition to support contour extraction and exploration. In this work, we introduce distributed algorithms for augmentation, hypersweeps, and branch decomposition that enable parallel computation of geometric properties, and support the use of distributed contour trees as query structures for scientific exploration. We evaluate the parallel performance of these algorithms and apply them to identify and extract important contours for scientific visualization.},
+      preview={Distributed_BD_2024_teaser.png},
+      pdf={VIS2024_Distributed_BD.pdf}
 }
 
 @INPROCEEDINGS{Li2023gwmc,
@@ -32,20 +33,19 @@
       pdf={GWMC_VIS_short_2023.pdf}
 }
 
-@ARTICLE{li2024distributedBD,
-      author={Li, Mingzhe and Carr, Hamish and Rübel, Oliver and Wang, Bei and Weber, Gunther H.},
-      journal={IEEE Transactions on Visualization and Computer Graphics}, 
-      title={Distributed Augmentation, Hypersweeps, and Branch Decomposition of Contour Trees for Scientific Exploration}, 
-      year={2024},
-      volume={},
-      number={},
-      pages={1-11},
-      keywords={Vegetation;Data visualization;Topology;Three-dimensional displays;Data analysis;Switched mode power supplies;Level set;Contour trees;branch decomposition;parallel algorithms;computational topology;topological data analysis},
+@misc{Li2023gwmt,
+      title={Flexible and Probabilistic Topology Tracking with Partial Optimal Transport}, 
+      author={Mingzhe Li and Xinyuan Yan and Lin Yan and Tom Needham and Bei Wang},
+      year={2023},
+      journal={Under review with IEEE Transactions of Visualization and Computer Graphics (TVCG)},
+      eprint={2302.02895},
+      archivePrefix={arXiv},
+      primaryClass={cs.CG},
       selected={true},
-      doi={10.1109/TVCG.2024.3456322},
-      abstract={Contour trees describe the topology of level sets in scalar fields and are widely used in topological data analysis and visualization. A main challenge of utilizing contour trees for large-scale scientific data is their computation at scale using highperformance computing. To address this challenge, recent work has introduced distributed hierarchical contour trees for distributed computation and storage of contour trees. However, effective use of these distributed structures in analysis and visualization requires subsequent computation of geometric properties and branch decomposition to support contour extraction and exploration. In this work, we introduce distributed algorithms for augmentation, hypersweeps, and branch decomposition that enable parallel computation of geometric properties, and support the use of distributed contour trees as query structures for scientific exploration. We evaluate the parallel performance of these algorithms and apply them to identify and extract important contours for scientific visualization.},
-      preview={Distributed_BD_2024_teaser.png},
-      pdf={VIS2024_Distributed_BD.pdf}
+      url={https://arxiv.org/abs/2302.02895}, 
+      abstract={In this paper, we present a flexible and probabilistic framework for tracking topological features in time-varying scalar fields using merge trees and partial optimal transport. Merge trees are topological descriptors that record the evolution of connected components in the sublevel sets of scalar fields. We present a new technique for modeling and comparing merge trees using tools from partial optimal transport. In particular, we model a merge tree as a measure network, that is, a network equipped with a probability distribution, and define a notion of distance on the space of merge trees inspired by partial optimal transport. Such a distance offers a new and flexible perspective for encoding intrinsic and extrinsic information in the comparative measures of merge trees. More importantly, it gives rise to a partial matching between topological features in time-varying data, thus enabling flexible topology tracking for scientific simulations. Furthermore, such partial matching may be interpreted as probabilistic coupling between features at adjacent time steps, which gives rise to probabilistic tracking graphs. We derive a stability result for our distance and provide numerous experiments indicating the efficacy of our framework in extracting meaningful feature tracks.},
+      preview={GWMT_2023_teaser.png},
+      pdf={TVCG_GWMT_2023_full_paper.pdf}
 }
 
 @article{LiPalandeYan2023,
