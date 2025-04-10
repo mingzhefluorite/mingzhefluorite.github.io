@@ -6,7 +6,7 @@ subtitle: <a href='https://sci.utah.edu'>Scientific Computing and Imaging Instit
 
 profile:
   align: right
-  image: IMG_2342.png
+  image: Mingzhe.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Warnock Engineering Building 4760</p>
