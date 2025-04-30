@@ -1,6 +1,18 @@
 ---
 ---
 
+@article{Li2025gwmt,
+      title={Flexible and Probabilistic Topology Tracking with Partial Optimal Transport},
+      author={Mingzhe Li and Xinyuan Yan and Lin Yan and Tom Needham and Bei Wang},
+      year={2025},
+      journal={IEEE Transactions on Visualization and Computer Graphics},
+      selected={true},
+      doi={10.1109/TVCG.2025.3561300},
+      abstract={In this paper, we present a flexible and probabilistic framework for tracking topological features in time-varying scalar fields using merge trees and partial optimal transport. Merge trees are topological descriptors that record the evolution of connected components in the sublevel sets of scalar fields. We present a new technique for modeling and comparing merge trees using tools from partial optimal transport. In particular, we model a merge tree as a measure network, that is, a network equipped with a probability distribution, and define a notion of distance on the space of merge trees inspired by partial optimal transport. Such a distance offers a new and flexible perspective for encoding intrinsic and extrinsic information in the comparative measures of merge trees. More importantly, it gives rise to a partial matching between topological features in time-varying data, thus enabling flexible topology tracking for scientific simulations. Furthermore, such partial matching may be interpreted as probabilistic coupling between features at adjacent time steps, which gives rise to probabilistic tracking graphs. We derive a stability result for our distance and provide numerous experiments indicating the efficacy of our framework in extracting meaningful feature tracks.},
+      preview={GWMT_2023_teaser.png},
+      pdf={TVCG_GW_Tracking_2025_arXiv_full.pdf}
+}
+
 @ARTICLE{li2024distributedBD,
       author={Li, Mingzhe and Carr, Hamish and Rübel, Oliver and Wang, Bei and Weber, Gunther H.},
       journal={IEEE Transactions on Visualization and Computer Graphics}, 
@@ -33,27 +45,15 @@
       pdf={GWMC_VIS_short_2023.pdf}
 }
 
-@article{Li2023gwmt,
-      title={Flexible and Probabilistic Topology Tracking with Partial Optimal Transport}, 
-      author={Mingzhe Li and Xinyuan Yan and Lin Yan and Tom Needham and Bei Wang},
-      year={2025},
-      journal={IEEE Transactions on Visualization and Computer Graphics},
-      selected={true},
-      doi={10.1109/TVCG.2025.3561300},
-      abstract={In this paper, we present a flexible and probabilistic framework for tracking topological features in time-varying scalar fields using merge trees and partial optimal transport. Merge trees are topological descriptors that record the evolution of connected components in the sublevel sets of scalar fields. We present a new technique for modeling and comparing merge trees using tools from partial optimal transport. In particular, we model a merge tree as a measure network, that is, a network equipped with a probability distribution, and define a notion of distance on the space of merge trees inspired by partial optimal transport. Such a distance offers a new and flexible perspective for encoding intrinsic and extrinsic information in the comparative measures of merge trees. More importantly, it gives rise to a partial matching between topological features in time-varying data, thus enabling flexible topology tracking for scientific simulations. Furthermore, such partial matching may be interpreted as probabilistic coupling between features at adjacent time steps, which gives rise to probabilistic tracking graphs. We derive a stability result for our distance and provide numerous experiments indicating the efficacy of our framework in extracting meaningful feature tracks.},
-      preview={GWMT_2023_teaser.png},
-      pdf={TVCG_GW_Tracking_2025_arXiv_full.pdf}
-}
-
-@article{LiPalandeYan2023,
+@inproceedings{LiPalandeYan2023,
 	author = {Li, Mingzhe and Palande, Sourabh and Yan, Lin and Wang, Bei},
-	date-modified = {2024-01-13 17:36:08 +0100},
-	journal = {IEEE Workshop on Topological Data Analysis and Visualization (TopoInVis) at IEEE VIS},
+	booktitle = {2023 Topological Data Analysis and Visualization (TopoInVis)},
 	title = {Sketching Merge Trees for Scientific Visualization},
 	year = {2023},
-  doi={10.1109/TopoInVis60193.2023.00013},
-  selected={true},
-  abstract={Merge trees are a type of topological descriptors that record the connectivity among the sublevel sets of scalar fields. They are among the most widely used topological tools in visualization. In this paper, we are interested in sketching a set of merge trees using techniques from matrix sketching. That is, given a large set T of merge trees, we would like to find a much smaller set of basis trees S such that each tree in T can be approximately reconstructed from a linear combination of merge trees in S. A set of high-dimensional vectors can be approximated via matrix sketching techniques such as principal component analysis and column subset selection. However, until now, there has not been any work on sketching a set of merge trees. We develop a framework for sketching a set of merge trees that combines matrix sketching with tools from optimal transport. In particular, we vectorize a set of merge trees into high-dimensional vectors while preserving their structures and structural relations. We demonstrate the applications of our framework in sketching merge trees that arise from time-varying scientific simulations. Specifically, our framework obtains a set of basis trees as representatives that capture the “modes” of physical phenomena for downstream analysis and visualization.},
-  preview={SketchMT_2023_teaser.PNG},
-  pdf={TopoInVis2023_Sketch_MT.pdf}
+	pages={61-71},
+    doi={10.1109/TopoInVis60193.2023.00013},
+    selected={true},
+    abstract={Merge trees are a type of topological descriptors that record the connectivity among the sublevel sets of scalar fields. They are among the most widely used topological tools in visualization. In this paper, we are interested in sketching a set of merge trees using techniques from matrix sketching. That is, given a large set T of merge trees, we would like to find a much smaller set of basis trees S such that each tree in T can be approximately reconstructed from a linear combination of merge trees in S. A set of high-dimensional vectors can be approximated via matrix sketching techniques such as principal component analysis and column subset selection. However, until now, there has not been any work on sketching a set of merge trees. We develop a framework for sketching a set of merge trees that combines matrix sketching with tools from optimal transport. In particular, we vectorize a set of merge trees into high-dimensional vectors while preserving their structures and structural relations. We demonstrate the applications of our framework in sketching merge trees that arise from time-varying scientific simulations. Specifically, our framework obtains a set of basis trees as representatives that capture the “modes” of physical phenomena for downstream analysis and visualization.},
+    preview={SketchMT_2023_teaser.PNG},
+    pdf={TopoInVis2023_Sketch_MT.pdf}
 }
