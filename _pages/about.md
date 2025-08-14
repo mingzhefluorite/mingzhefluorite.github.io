@@ -9,7 +9,7 @@ profile:
   image: Mingzhe-crop.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Warnock Engineering Building 4760</p>
+    <p>Warnock Engineering Building, Room 4760</p>
     <p>72 S Central Campus Dr. </p>
     <p>Salt Lake City, UT 84112</p>
 
@@ -22,4 +22,4 @@ I am Mingzhe Li, a fifth-year Ph.D. student in Computing at the Scientific Compu
 
 Before my Ph.D. program, I received my M.S. degree from the University of Southern California and B.Eng degree from Zhejiang University, both in Computer Science.
 
-I am actively looking for postdoc positions in academic institutes and national labs. Feel free to reach out to me via email!
+Feel free to reach out to me via email if you are interested in collaboration!

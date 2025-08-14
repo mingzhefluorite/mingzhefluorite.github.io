@@ -1,15 +1,24 @@
 ---
 ---
 
-@misc{LiChatterjee2025,
+@inproceedings{LiCarrRubel2025,
+      title={Extremely Scalable Distributed Computation of Contour Trees via Pre-Simplification},
+      author={Mingzhe Li and Hamish Carr and Oliver R\"{u}bel and Bei Wang and Gunther H. Weber},
+      year={2025},
+      booktitle={2025 The 15th IEEE Workshop on Large Data Analysis and Visualization (LDAV)},
+      preview={ldav2025_preview.png},
+      pdf={LDAV2025_Presimplification.pdf},
+}
+
+@inproceedings{LiChatterjee2025,
       title={Tracking Low-Level Cloud Systems with Topology},
       author={Mingzhe Li and Dwaipayan Chatterjee and Franziska Glassmeier and Fabian Senf and Bei Wang},
       year={2025},
-      archivePrefix={arXiv},
-      primaryClass={cs.CG},
+      booktitle={2025 Topological Data Analysis and Visualization (TopoInVis)}, 
       abstract={Low-level clouds are ubiquitous in Earth's atmosphere, playing a crucial role in transporting heat, moisture, and momentum across the planet. Their evolution and interaction with other atmospheric components, such as aerosols, are essential to understanding the climate system and its sensitivity to anthropogenic influences. Advanced high-resolution geostationary satellites now resolve cloud systems with greater accuracy, establishing cloud tracking as a vital research area for studying their spatiotemporal dynamics. It enables disentangling advective and convective components driving cloud evolution. This, in turn, provides deeper insights into the structure and lifecycle of low-level cloud systems and the atmospheric processes they govern. In this paper, we propose a novel framework for tracking cloud systems using topology-driven techniques based on optimal transport.  We first obtain a set of anchor points for the cloud systems based on the merge tree of the cloud optical depth field. We then apply topology-driven probabilistic feature tracking of these anchor points to guide the tracking of cloud systems. We demonstrate the utility of our framework by tracking clouds over the ocean and land to test for systematic differences in the two physically distinct settings. We further evaluate our framework through case studies and statistical analyses, comparing it against two leading cloud tracking tools and two topology-based general-purpose tracking tools. The results demonstrate that incorporating system-based tracking improves the ability to capture the evolution of low-level clouds. Our framework paves the way for detailed low-level cloud characterization studies using satellite data records. },
       preview={Cloud_tracking_2025_teaser.png},
       pdf={VIS2025_Cloud_Tracking.pdf},
+      selected={true},
 }
 
 @article{Li2025gwmt,
@@ -49,7 +58,6 @@
       number={},
       pages={41-45},
       keywords={Uncertainty;Visual analytics;Data visualization;Feature extraction;Guidelines;Morse Complexes;topological data analysis;optimal transport;topology in visualization Human-centered computing;Visualization},
-      selected={true},
       doi={10.1109/VIS54172.2023.00017},
       abstract={Morse complexes and Morse-Smale complexes are topological descriptors popular in topology-based visualization. Comparing these complexes plays an important role in their applications in feature correspondences, feature tracking, symmetry detection, and uncertainty visualization. Leveraging recent advances in optimal transport, we apply a class of optimal transport distances to the comparative analysis of Morse complexes. Contrasting with existing comparative measures, such distances are easy and efficient to compute, and naturally provide structural matching between Morse complexes. We perform an experimental study involving scientific simulation datasets and discuss the effectiveness of these distances as comparative measures for Morse complexes. We also provide an initial guideline for choosing the optimal transport distances under various data assumptions.},
       preview={GWMC_2023_teaser.png},

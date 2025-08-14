@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Teaching Assistant Experience.
+title: Teaching
+description: Teaching Experience.
 nav: true
 nav_order: 6
 ---
