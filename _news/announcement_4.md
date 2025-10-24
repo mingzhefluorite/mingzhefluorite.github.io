@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Mingzhe will start his postdoctoral program at the University of Notre Dame in Nov. 2025!
+I will start his postdoctoral program at the University of Notre Dame in Nov. 2025!

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-07-17 15:59:00-0400
+date: 2025-10-21 14:00:00-0600
 inline: true
 related_posts: false
 ---
 
-Our paper "Distributed Augmentation, Hypersweeps, and Branch Decomposition of Contour Trees for Scientific Exploration" is accepted by IEEE VIS 2024!
+I successfully defended my Ph.D. dissertation "Topological Descriptors for Complex and Scalable Data Analysis: Optimal Transport and Distributed Feature Extraction"!
