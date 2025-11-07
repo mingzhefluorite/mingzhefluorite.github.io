@@ -11,10 +11,11 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. student
+    - title: Ph.D.
       institution: University of Utah, United States
-      year: 2025 (expected graduation)
+      year: 2025
       description:
+        - Computing
         - advisor: Dr. Bei Wang Phillips
         
     - title: M.S.
