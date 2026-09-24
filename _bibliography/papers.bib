@@ -42,6 +42,7 @@
 Our approach first estimates a representative barycenter matrix under the FPGW formulation and then reconstructs an approximate contour tree from this matrix. We further introduce a visualization that integrates the structural summary with transport-induced uncertainty. Specifically, we encode variability in function values, spatial embedding, and node correspondences, and propose a MetroSets-inspired view to expose structural differences among ensemble members.
 We demonstrate the effectiveness of our method on flow simulation ensembles, where barycenter contour trees yield interpretable summaries of topological variability and highlight regions of structural and scalar uncertainty grounded in the underlying data.},
       note={accepted},
+      preview={VISShort2026_CTBarycenter.png},
       pdf={VIS_Short_2026_Uncertainty_CT_Barycenter.pdf}
 }
 
@@ -53,6 +54,7 @@ We demonstrate the effectiveness of our method on flow simulation ensembles, whe
       arxiv={2606.08258},
       url={https://arxiv.org/abs/2606.08258},
       abstract={Understanding and comparing structures in scalar fields is a central challenge in scientific visualization, with applications ranging from feature analysis to temporal and structural comparison. The Morse-Smale (MS) complex provides a natural representation by decomposing a scalar field into regions induced by gradient flow. However, existing approaches typically rely on graph-based representations, capturing relationships between critical points while discarding region-level structure. In this work, we represent the MS complex as a hypergraph, where critical points form nodes and regions define hyperedges. We introduce MS-COOT, a co-optimal transport distance that jointly computes correspondences between critical points and regions. This formulation enables explicit region-to-region matching within a distance-based framework, allowing identification of region-level events such as splitting and merging. We instantiate this framework with domain-specific components, including a hypernetwork function encoding critical point-region relationships, persistence-based probability measures that emphasize topologically significant features, and a sample cost term that incorporates critical point attributes. We evaluate MS-COOT on five datasets spanning 2D simulations, 3D surface meshes, and volumetric data. Our results show that MS-COOT captures region-level structural changes that are not reflected by graph-based distances, while achieving strong performance in downstream tasks such as classification and resolution discrimination.},
+      preview={MSCOOT_2026_preview.png},
       pdf={arXiv2026_MSCOOT.pdf}
 }
 
