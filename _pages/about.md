@@ -12,16 +12,11 @@ profile:
     <p>Department of Computer Science and Engineering</p>
     <p>University of Notre Dame</p>
     <p>South Bend, Indiana, USA</p>
+    <p><a href="mailto:mingzhefluorite@gmail.com">mingzhefluorite@gmail.com</a></p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # show the full list on the publications page
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Mingzhe Li. I am currently a postdoctoral research fellow at the University of Notre Dame.
-I obtained my Ph.D. from the University of Utah, with Prof. Bei Wang Phillips as my advisor.
-My current research interests include topological data analysis, scientific visualization, machine learning, and high-performance computing.
-
-I received my M.S. degree from the University of Southern California and B.Eng degree from Zhejiang University, both in Computer Science.
-
-Feel free to reach out to me via email if you are interested in collaboration!
+Mingzhe Li is a postdoctoral research fellow in the Department of Computer Science and Engineering at the University of Notre Dame. He received his Ph.D. in Computing from the University of Utah, advised by Professor Bei Wang Phillips, an M.S. in Computer Science from the University of Southern California, and a B.Eng. in Computer Science from Zhejiang University. His research focuses on topological data analysis, scientific visualization, machine learning, and high-performance computing. Email: [mingzhefluorite@gmail.com](mailto:mingzhefluorite@gmail.com).

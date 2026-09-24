@@ -1,11 +1,10 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: CV_Mingzhe_Nov12_2025.pdf
-description:
-toc:
-  sidebar: left
+description: Curriculum vitae
 ---
+
+A current curriculum vitae is available as a PDF: [CV_Mingzhe_ND_Jul2026.pdf]({{ '/assets/pdf/CV_Mingzhe_ND_Jul2026.pdf' | relative_url }}).

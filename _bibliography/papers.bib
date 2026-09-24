@@ -33,14 +33,36 @@
       pdf={TVCG_GW_Tracking_2025_arXiv_full.pdf}
 }
 
+@inproceedings{LiLanWeberWang2026,
+      title={Uncertainty Visualization for Approximated Barycenter of Contour Trees Based on Partial Optimal Transport},
+      author={Mingzhe Li and Fangfei Lan and Gunther H. Weber and Bei Wang},
+      year={2026},
+      booktitle={IEEE Visualization and Visual Analytics (VIS) Short Papers},
+      note={accepted},
+      pdf={VIS_Short_2026_Uncertainty_CT_Barycenter.pdf}
+}
+
+@article{MengLiChambers2026,
+      title={{MS-COOT}: Comparing {Morse-Smale} Complexes with Co-Optimal Transport},
+      author={Guangyu Meng and Mingzhe Li and Erin Wolf Chambers},
+      year={2026},
+      journal={arXiv preprint arXiv:2606.08258},
+      arxiv={2606.08258},
+      url={https://arxiv.org/abs/2606.08258},
+      abstract={Understanding and comparing structures in scalar fields is a central challenge in scientific visualization, with applications ranging from feature analysis to temporal and structural comparison. The Morse-Smale (MS) complex provides a natural representation by decomposing a scalar field into regions induced by gradient flow. However, existing approaches typically rely on graph-based representations, capturing relationships between critical points while discarding region-level structure. In this work, we represent the MS complex as a hypergraph, where critical points form nodes and regions define hyperedges. We introduce MS-COOT, a co-optimal transport distance that jointly computes correspondences between critical points and regions. This formulation enables explicit region-to-region matching within a distance-based framework, allowing identification of region-level events such as splitting and merging. We instantiate this framework with domain-specific components, including a hypernetwork function encoding critical point-region relationships, persistence-based probability measures that emphasize topologically significant features, and a sample cost term that incorporates critical point attributes. We evaluate MS-COOT on five datasets spanning 2D simulations, 3D surface meshes, and volumetric data. Our results show that MS-COOT captures region-level structural changes that are not reflected by graph-based distances, while achieving strong performance in downstream tasks such as classification and resolution discrimination.},
+      pdf={arXiv2026_MSCOOT.pdf}
+}
+
 @article{Li2026blocking,
       title={Spatiotemporal Detection and Uncertainty Visualization of Atmospheric Blocking Events},
       author={Mingzhe Li and Peer Nowack and Bei Wang},
       year={2026},
-      journal={IEEE Transactions on Visualization and Computer Graphics (PacificVis 2026 TVCG Journal Track)},
-      selected={true},
-      note={accepted},
-      doi={},
+      journal={IEEE Transactions on Visualization and Computer Graphics (PacificVis 2026 Journal Track)},
+      volume={32},
+      number={6},
+      pages={4742-4752},
+      month={June},
+      doi={10.1109/TVCG.2026.3694459},
       abstract={Atmospheric blocking events are quasi-stationary high-pressure systems that disrupt the typical paths of polar and subtropical air currents, often producing prolonged extreme weather events such as summer heat waves or winter cold spells. Despite their critical role in shaping mid-latitude weather, accurately modeling and analyzing blocking events in long meteorological records remains a significant challenge. To address this challenge, we present an uncertainty visualization framework for detecting and characterizing atmospheric blocking events. First, we introduce a geometry-based detection and tracking method, evaluated on both pre-industrial climate model simulations (UKESM) and reanalysis data (ERA5), which represent historical Earth observations assimilated from satellite and station measurements onto regular numerical grids using weather models. Second, we propose a suite of uncertainty-aware summaries: contour boxplots that capture representative boundaries and their variability, frequency heatmaps that encode occurrences, and 3D temporal stacks that situate these patterns in time. Third, we demonstrate our framework in a case study of the 2003 European heatwave, mapping the spatiotemporal occurrences of blocking events using these summaries. Collectively, these uncertainty visualizations reveal where blocking events are most likely to occur and how their spatial footprints evolve over time. We envision our framework as a valuable tool for climate scientists and meteorologists: by analyzing how blocking frequency, duration, and intensity vary across regions and climate scenarios, it supports both the study of historical blocking events and the assessment of scenario-dependent climate risks associated with changes in extreme weather linked to blocking.},
       preview={PVIS2026_blocking_preview.png},
       pdf={PVIS2026_Atmospheric_Blocking.pdf}
