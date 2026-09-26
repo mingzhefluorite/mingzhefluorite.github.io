@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://cse.nd.edu/'>Department of Computer Science and Engineering, University of Notre Dame</a>.
 
