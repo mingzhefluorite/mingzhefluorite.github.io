@@ -21,4 +21,4 @@ social: true # includes social icons at the bottom of the page
 
 Mingzhe Li is a postdoctoral research fellow in the Department of Computer Science and Engineering at the University of Notre Dame. He received his Ph.D. in Computing from the University of Utah, where he was advised by Prof. Bei Wang Phillips. His research develops computational methods for analyzing and understanding complex scientific data, with a particular emphasis on topological data analysis and scientific visualization. His work spans topology-based representations and comparison methods, uncertainty-aware visualization and analysis, machine learning, and scalable algorithms for large scientific datasets.
 
-A current curriculum vitae is available as a PDF: [CV_Mingzhe_ND_Jul2026.pdf]({{ '/assets/pdf/CV_Mingzhe_ND_Jul2026.pdf' | relative_url }}).
+A current curriculum vitae is available as a PDF: [CV_Mingzhe.pdf]({{ '/assets/pdf/CV_Mingzhe_ND_Jul2026.pdf' | relative_url }}).
